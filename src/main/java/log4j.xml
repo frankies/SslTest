@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+<!-- Appender settings -->
+  <!-- Console Appender -->
+  <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+    <param name="Threshold" value="DEBUG"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{yyyy.MM.dd HH:mm:ss.SSS}	%m%n"/>
+    </layout>
+  </appender>
+
+  <!-- File Appender -->
+  <appender name="BATCH_NORMAL_LOG" class="org.apache.log4j.CompositeRollingFileAppender">
+    <param name="MaxBackupIndex" value="50"/>
+    <param name="MaxFileSize" value="2MB"/>
+    <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+    <param name="Threshold" value="DEBUG"/>
+    <param name="File" value="${batch.log.dir}/xm03-batch-normal.log"/>
+    <param name="append" value="true" />
+    <param name="Encoding" value="UTF-8" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{yyyy.MM.dd HH:mm:ss.SSS}	%m%n"/>
+    </layout>
+  </appender>
+
+  <!-- File Appender -->
+  <appender name="BATCH_ERROR_LOG" class="org.apache.log4j.CompositeRollingFileAppender">
+    <param name="MaxBackupIndex" value="50"/>
+    <param name="MaxFileSize" value="2MB"/>
+    <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+    <param name="Threshold" value="ERROR"/>
+    <param name="File" value="${batch.log.dir}/xm03-batch-error.log"/>
+    <param name="append" value="true" />
+    <param name="Encoding" value="UTF-8" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%d{yyyy.MM.dd HH:mm:ss.SSS},%-5p,[%t] (%c,%F,%L),%m%n"/>
+    </layout>
+  </appender>
+
+  <!-- application log -->
+  <category
+      name="jp.co.ccs"
+      additivity="false">
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+
+  <category
+      name="jp.co.yamaha_motor"
+      additivity="false">
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+
+  <category
+      name="jp.co.yamaha_motor.commons.web.aop"
+      additivity="false">
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+
+  <category
+      name="org.hibernate.SQL"
+      additivity="false">
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+
+  <category
+      name="jp.co.yamaha_motor.xm03.nonserializeditem.batch"
+      additivity="false">
+    <priority value="INFO"/>
+    <appender-ref ref="BATCH_NORMAL_LOG"/>
+  </category>
+ 
+  <category
+      name="org.springframework.transaction"
+      additivity="false">
+    <priority value="warn"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+  
+  <category
+      name="org.springframework.orm"
+      additivity="false">
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+
+  
+  <category
+      name="net.sf.ehcache"
+      additivity="false">
+    <priority value="ERROR"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </category>
+  
+<!--   <category
+      name="org.postgresql.Driver"
+      additivity="false">
+    <priority value="DEBUG"/>
+    <appender-ref ref="CONSOLE"/>
+  </category> -->
+
+  <!-- other -->
+  <root>
+    <priority value="WARN"/>
+    <appender-ref ref="BATCH_ERROR_LOG"/>
+  </root>
+</log4j:configuration>
