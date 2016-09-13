@@ -1,0 +1,229 @@
+keyStore is :
+keyStore type is : jks
+keyStore provider is :
+init keystore
+init keymanager of type SunX509
+trustStore is: F:\lab\YNA2\code_workspace_new\TestLog\.\src\main\resources\client_ks
+trustStore type is : jks
+trustStore provider is :
+init truststore
+adding as trusted cert:
+  Subject: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Issuer:  CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Algorithm: RSA; Serial number: 0x1434f6eb
+  Valid from Tue Sep 13 14:59:31 CST 2016 until Mon Dec 12 14:59:31 CST 2016
+
+adding as trusted cert:
+  Subject: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Issuer:  CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Algorithm: RSA; Serial number: 0x47ead237
+  Valid from Tue Sep 13 15:00:40 CST 2016 until Mon Dec 12 15:00:40 CST 2016
+
+trigger seeding of SecureRandom
+done seeding SecureRandom
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Ignoring unavailable cipher suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Ignoring unavailable cipher suite: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Allow unsafe renegotiation: false
+Allow legacy hello messages: true
+Is initial handshake: true
+Is secure renegotiation: false
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 for TLSv1
+Ignoring unsupported cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 for TLSv1.1
+Ignoring unsupported cipher suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 for TLSv1.1
+%% No cached client session
+*** ClientHello, TLSv1.2
+RandomCookie:  GMT: 1456914085 bytes = { 39, 39, 56, 56, 173, 8, 5, 140, 253, 157, 249, 147, 178, 244, 50, 141, 14, 22, 162, 184, 227, 239, 78, 203, 214, 69, 200, 14 }
+Session ID:  {}
+Cipher Suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Compression Methods:  { 0 }
+Extension elliptic_curves, curve names: {secp256r1, sect163k1, sect163r2, secp192r1, secp224r1, sect233k1, sect233r1, sect283k1, sect283r1, secp384r1, sect409k1, sect409r1, secp521r1, sect571k1, sect571r1, secp160k1, secp160r1, secp160r2, sect163r1, secp192k1, sect193r1, sect193r2, secp224k1, sect239k1, secp256k1}
+Extension ec_point_formats, formats: [uncompressed]
+Extension signature_algorithms, signature_algorithms: SHA512withECDSA, SHA512withRSA, SHA384withECDSA, SHA384withRSA, SHA256withECDSA, SHA256withRSA, SHA224withECDSA, SHA224withRSA, SHA1withECDSA, SHA1withRSA, SHA1withDSA, MD5withRSA
+***
+main, WRITE: TLSv1.2 Handshake, length = 195
+main, READ: TLSv1.2 Handshake, length = 1273
+*** ServerHello, TLSv1.2
+RandomCookie:  GMT: 1456914085 bytes = { 61, 152, 242, 210, 176, 130, 160, 248, 139, 160, 254, 41, 204, 252, 65, 154, 80, 117, 174, 10, 96, 186, 3, 230, 135, 222, 97, 144 }
+Session ID:  {87, 215, 191, 165, 25, 26, 140, 66, 7, 7, 92, 252, 121, 234, 210, 243, 70, 23, 16, 165, 20, 114, 132, 60, 25, 26, 88, 231, 3, 66, 239, 4}
+Cipher Suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Compression Method: 0
+Extension renegotiation_info, renegotiated_connection: <empty>
+***
+%% Initialized:  [Session-1, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256]
+** TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+*** Certificate chain
+chain [0] = [
+[
+  Version: V3
+  Subject: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 23751866985092543650163029294386062991571977380690621059599527343530964325883653018122119739858498405940123454330359957072082798016689062623182755258012570564301750487947733823278238635292985107080657948758160146938028793606453844230553433214845908290859481884390805441265952715671165528866693104738417818246675416030562897781940705816802932161682278792405450991277609120543960806335731531656898794460202739009053805338763104413826095924782267227776687527199258769997096526706086336228975197935000225767293524089850830829458582183357263695438765493384604948657974686960193148879464927883024219815905642972838249929251
+  public exponent: 65537
+  Validity: [From: Tue Sep 13 14:59:31 CST 2016,
+               To: Mon Dec 12 14:59:31 CST 2016]
+  Issuer: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  SerialNumber: [    1434f6eb]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1D 27 C2 3F 80 25 CC E1   97 34 48 C6 65 50 19 A2  .'.?.%...4H.eP..
+0010: 51 E1 CA D0                                        Q...
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9C D7 94 15 A3 FF 62 E5   0D D6 5C 57 34 2F C3 E9  ......b...\W4/..
+0010: 38 D1 A4 F8 64 F1 AE 4D   DA 29 02 58 74 B1 3D C1  8...d..M.).Xt.=.
+0020: BD A6 BD 3C AC A7 54 40   AB B5 D7 D0 FF 15 3B 31  ...<..T@......;1
+0030: 2D F3 CF 4E 96 63 57 D9   9E D2 ED 55 F3 79 F4 D2  -..N.cW....U.y..
+0040: AD 0C 20 87 65 C3 0A F9   BC A0 23 85 08 3D A3 F2  .. .e.....#..=..
+0050: 90 57 BE FC 3C B7 07 BB   7A 39 37 60 23 17 71 90  .W..<...z97`#.q.
+0060: D3 C9 01 29 3E 08 FF DC   C8 7C 26 B4 92 23 21 62  ...)>.....&..#!b
+0070: 90 28 E4 14 66 46 F2 A6   C0 B7 70 83 77 52 80 67  .(..fF....p.wR.g
+0080: A8 03 D8 AF CA 74 6F 6C   9A A7 44 E3 05 E4 FE 41  .....tol..D....A
+0090: 4A 70 2C 95 66 68 FC 66   17 76 1F DC E3 B7 16 40  Jp,.fh.f.v.....@
+00A0: 1C 0B DA 16 FF BC 6F 3D   2C 86 CD 4F B2 C6 5D DB  ......o=,..O..].
+00B0: C5 80 6C B5 52 27 51 83   6F A7 84 53 FC C0 A9 7B  ..l.R'Q.o..S....
+00C0: 81 C8 1E 27 C8 02 C3 8E   B4 B8 D1 32 DB 41 C0 CB  ...'.......2.A..
+00D0: 8F EA A1 7F EB B3 30 A1   85 F9 ED DF A6 A1 5D F0  ......0.......].
+00E0: 3B 4F 2C D6 3F 2D 09 9A   38 D0 35 E8 05 2F 2D 99  ;O,.?-..8.5../-.
+00F0: 0A BD 3D DD 10 9A B5 A4   97 F0 6F B3 82 B5 A8 05  ..=.......o.....
+
+]
+***
+Found trusted certificate:
+[
+[
+  Version: V3
+  Subject: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 23751866985092543650163029294386062991571977380690621059599527343530964325883653018122119739858498405940123454330359957072082798016689062623182755258012570564301750487947733823278238635292985107080657948758160146938028793606453844230553433214845908290859481884390805441265952715671165528866693104738417818246675416030562897781940705816802932161682278792405450991277609120543960806335731531656898794460202739009053805338763104413826095924782267227776687527199258769997096526706086336228975197935000225767293524089850830829458582183357263695438765493384604948657974686960193148879464927883024219815905642972838249929251
+  public exponent: 65537
+  Validity: [From: Tue Sep 13 14:59:31 CST 2016,
+               To: Mon Dec 12 14:59:31 CST 2016]
+  Issuer: CN=localhost, OU=cn, O=cn, L=cn, ST=cn, C=cn
+  SerialNumber: [    1434f6eb]
+
+Certificate Extensions: 1
+[1]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 1D 27 C2 3F 80 25 CC E1   97 34 48 C6 65 50 19 A2  .'.?.%...4H.eP..
+0010: 51 E1 CA D0                                        Q...
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9C D7 94 15 A3 FF 62 E5   0D D6 5C 57 34 2F C3 E9  ......b...\W4/..
+0010: 38 D1 A4 F8 64 F1 AE 4D   DA 29 02 58 74 B1 3D C1  8...d..M.).Xt.=.
+0020: BD A6 BD 3C AC A7 54 40   AB B5 D7 D0 FF 15 3B 31  ...<..T@......;1
+0030: 2D F3 CF 4E 96 63 57 D9   9E D2 ED 55 F3 79 F4 D2  -..N.cW....U.y..
+0040: AD 0C 20 87 65 C3 0A F9   BC A0 23 85 08 3D A3 F2  .. .e.....#..=..
+0050: 90 57 BE FC 3C B7 07 BB   7A 39 37 60 23 17 71 90  .W..<...z97`#.q.
+0060: D3 C9 01 29 3E 08 FF DC   C8 7C 26 B4 92 23 21 62  ...)>.....&..#!b
+0070: 90 28 E4 14 66 46 F2 A6   C0 B7 70 83 77 52 80 67  .(..fF....p.wR.g
+0080: A8 03 D8 AF CA 74 6F 6C   9A A7 44 E3 05 E4 FE 41  .....tol..D....A
+0090: 4A 70 2C 95 66 68 FC 66   17 76 1F DC E3 B7 16 40  Jp,.fh.f.v.....@
+00A0: 1C 0B DA 16 FF BC 6F 3D   2C 86 CD 4F B2 C6 5D DB  ......o=,..O..].
+00B0: C5 80 6C B5 52 27 51 83   6F A7 84 53 FC C0 A9 7B  ..l.R'Q.o..S....
+00C0: 81 C8 1E 27 C8 02 C3 8E   B4 B8 D1 32 DB 41 C0 CB  ...'.......2.A..
+00D0: 8F EA A1 7F EB B3 30 A1   85 F9 ED DF A6 A1 5D F0  ......0.......].
+00E0: 3B 4F 2C D6 3F 2D 09 9A   38 D0 35 E8 05 2F 2D 99  ;O,.?-..8.5../-.
+00F0: 0A BD 3D DD 10 9A B5 A4   97 F0 6F B3 82 B5 A8 05  ..=.......o.....
+
+]
+*** ECDH ServerKeyExchange
+Signature Algorithm SHA512withRSA
+Server key: Sun EC public key, 256 bits
+  public x coord: 10299020010189836945685886865516397257220399464978204208880559783588029256670
+  public y coord: 100447582780479634756719777666564527780450072518516161026766252181950839957601
+  parameters: secp256r1 [NIST P-256, X9.62 prime256v1] (1.2.840.10045.3.1.7)
+*** ServerHelloDone
+*** ECDHClientKeyExchange
+ECDH Public value:  { 4, 21, 255, 71, 115, 215, 208, 170, 64, 123, 216, 117, 161, 21, 147, 50, 226, 28, 102, 90, 50, 90, 131, 157, 135, 164, 84, 100, 95, 19, 162, 152, 94, 94, 47, 243, 215, 131, 8, 143, 127, 23, 142, 66, 59, 139, 154, 53, 249, 252, 141, 30, 30, 188, 165, 183, 125, 90, 183, 43, 173, 102, 95, 210, 105 }
+main, WRITE: TLSv1.2 Handshake, length = 70
+SESSION KEYGEN:
+PreMaster Secret:
+0000: 1E E5 41 6F D3 81 B3 E9   43 7B DA D3 56 CC 3B 53  ..Ao....C...V.;S
+0010: 38 6A C1 A8 8E 8B 8A EE   FC 8B 40 E1 A5 59 CB 75  8j........@..Y.u
+CONNECTION KEYGEN:
+Client Nonce:
+0000: 57 D7 BF A5 27 27 38 38   AD 08 05 8C FD 9D F9 93  W...''88........
+0010: B2 F4 32 8D 0E 16 A2 B8   E3 EF 4E CB D6 45 C8 0E  ..2.......N..E..
+Server Nonce:
+0000: 57 D7 BF A5 3D 98 F2 D2   B0 82 A0 F8 8B A0 FE 29  W...=..........)
+0010: CC FC 41 9A 50 75 AE 0A   60 BA 03 E6 87 DE 61 90  ..A.Pu..`.....a.
+Master Secret:
+0000: 7C EB 67 D0 4D 11 5B BD   E5 B2 32 D8 82 88 8C 39  ..g.M.[...2....9
+0010: 68 24 5F 4A 52 F4 88 4D   AB D3 DD 11 03 0F 03 EF  h$_JR..M........
+0020: 51 58 E2 BB F3 8D F8 24   02 D3 C8 51 AD 1F 2A F8  QX.....$...Q..*.
+Client MAC write Secret:
+0000: DC 65 92 AF C5 89 6F 96   15 42 26 01 D2 A7 77 DE  .e....o..B&...w.
+0010: B6 D9 72 F9 1A F8 A7 B0   F2 B9 38 0B C0 CF 46 83  ..r.......8...F.
+Server MAC write Secret:
+0000: C8 98 27 8B 84 E9 92 88   98 06 23 99 63 B5 1B 8D  ..'.......#.c...
+0010: C8 48 DF AE 45 FD 36 E4   AD 52 48 3F E9 20 6D 3D  .H..E.6..RH?. m=
+Client write key:
+0000: 49 B4 C2 CF 76 58 EE 02   50 0E 69 E1 C5 00 A5 93  I...vX..P.i.....
+Server write key:
+0000: 94 6A E6 EF 54 48 BF D2   78 DA 11 EB BF AF C2 D5  .j..TH..x.......
+... no IV derived for this protocol
+main, WRITE: TLSv1.2 Change Cipher Spec, length = 1
+*** Finished
+verify_data:  { 109, 204, 19, 5, 117, 220, 97, 212, 235, 93, 12, 32 }
+***
+main, WRITE: TLSv1.2 Handshake, length = 80
+main, READ: TLSv1.2 Change Cipher Spec, length = 1
+main, READ: TLSv1.2 Handshake, length = 80
+*** Finished
+verify_data:  { 94, 160, 37, 195, 121, 89, 73, 44, 239, 236, 117, 230 }
+***
+%% Cached client session: [Session-1, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256]
+main, WRITE: TLSv1.2 Application Data, length = 64
+main, READ: TLSv1.2 Application Data, length = 64
+hello
+main, called close()
+main, called closeInternal(true)
+main, SEND TLSv1.2 ALERT:  warning, description = close_notify
+main, WRITE: TLSv1.2 Alert, length = 64
+main, called closeSocket(true)
