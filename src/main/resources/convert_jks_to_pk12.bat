@@ -1,0 +1,1 @@
+keytool -importkeystore -srckeystore server_ks -destkeystore converted-my.p12 -srcstoretype JKS -deststoretype PKCS12 -srcalias bluedash-ssl-demo-server -srcstorepass server -srckeypass 123123 -destalias converted-my  -destkeypass converted-my-kp -deststorepass converted-my-sp
